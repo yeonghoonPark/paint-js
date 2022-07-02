@@ -4,9 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>paint-js</title>
+    <link rel="stylesheet" href="./css/app.css">
+    <title>Paint-JS</title>
+    <script defer src="./js/app.js"></script>
 </head>
 <body>
-    
+    <canvas id="jsCanvas" class="canvas"></canvas>
+    <div class="controls">
+        <div class="controls_btns">
+            <button id="jsMode">Fill</button>
+            <button id="jsSave">Save</button>
+        </div>
+        <div id="jsColors" class="controls_colors">
+            <div class="controls_color" style="background-color: #2c2c2c;"></div>
+            <div class="controls_color" style="background-color: #ffffff;"></div>
+            <div class="controls_color" style="background-color: #ff3b30;"></div>
+            <div class="controls_color" style="background-color: #ff9500;"></div>
+            <div class="controls_color" style="background-color: #ffcc00;"></div>
+            <div class="controls_color" style="background-color: #4cd963;"></div>
+            <div class="controls_color" style="background-color: #5ac8fa;"></div>
+            <div class="controls_color" style="background-color: #442fbe;"></div>
+            <div class="controls_color" style="background-color: #b239ca;"></div>
+        </div>
+    </div>
 </body>
 </html>
