@@ -24,6 +24,10 @@ body{
     align-items: center;
 }
 
+.controls .controls_range{
+    margin-bottom: 30px;
+}
+
 .controls .controls_btns{
     margin-bottom: 30px;
 }
@@ -32,11 +36,19 @@ body{
     all: unset;
     width: 80px;
     padding: 5px 0;
+    border: 2px solid rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     background-color: #fff;
+    color: rgba(0, 0, 0, 0.8);
     box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(50, 50, 93, 0.11);
     text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
     cursor: pointer;
+}
+
+.controls_btns button:active{
+    transform: scale(0.98);
 }
 
 .controls .controls_colors{
